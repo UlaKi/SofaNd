@@ -1,0 +1,79 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Source Serif Pro', serif;;
+}
+.page-frame {
+	margin: 0 auto;
+	max-width: 1000px;
+	width: 100%;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+.sofa {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+img {
+	max-width: 100%;
+}
+h1 {
+	font-size: 4.5em;
+	text-align: center;
+	margin: 0 0 .25em;
+	font-weight: 600;
+}
+h2 {
+	margin-top: 30px;
+    margin-bottom: 10px;
+	font-weight: 600;
+}
+.moto {
+	border: 3px double #ddd;
+	border-left: 0;
+	border-right: 0;
+	padding: 5px;
+	box-sizing: border-box;
+}
+.moto p {
+	text-align: center;
+	line-height: 2;
+}
+.articles {
+	display: flex;
+	gap: 40px;
+}
+.articles article {
+	flex-basis: 25%;
+}
+.articles p {
+	font-size: 0.8em;
+}
+.articles i {
+	font-size: 14px;
+	color: #aaa;
+	margin-left: 4px;
+}
+.ano{
+	text-align: center;
+	padding: 20px;
+}
+.ano > span {
+	margin-left:8px;
+}
+.triangle {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+}
+.triangle img{ 
+	width: 100%;
+	height: auto;
+}
+.kal {
+	font-size: 14px;
+	color: #A9A9A9;
+}
